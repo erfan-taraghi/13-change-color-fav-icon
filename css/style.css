@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    text-align: center;
+}
+
+.container .buttonRed{
+    width: 200px;
+    background:red;
+    font-size: 25px;
+    padding:15px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+.container .buttonGreen{
+     width: 200px;
+    background:green;
+    font-size: 25px;
+    padding:15px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
